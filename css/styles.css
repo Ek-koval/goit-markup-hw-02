@@ -16,7 +16,6 @@ a {
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
@@ -27,12 +26,27 @@ a {
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
 
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 24px;
+}
 .nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -43,7 +57,6 @@ a {
 .contacts-link {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -162,6 +175,25 @@ a {
     line-height: 1.5;
     color: #434455;
 }
+.team {
+    background-color: #f4f4fd;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    text-align: center;
+}
 
 <!-- selection portfolio-->
 .portfolio {
@@ -213,8 +245,29 @@ a {
     color: #434455;
     margin: 0 16px 16px;
 }
+.portfolio {
+    padding: 100px 0;
+}
 
-<!-- footer-->
+.portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+
 .page-footer {
     background-color: #2e2f42;
     color: #f4f4fd;
@@ -228,4 +281,48 @@ a {
     color: #f4f4fd;
     max-width: 400px;
     margin: 0 auto;
+}
+.page-footer {
+    padding: 60px 40px;
+    text-align: left;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-text {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.page-footer {
+    background-color: #2e2f42;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo-part {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
 }
