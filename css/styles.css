@@ -111,19 +111,18 @@ a {
 }
 .team-list {
     background-color: #f4f4fd;
-    text-transform: capitalize;
 }
 .team-item {
     background-color: #FFFFFF
 }
 .team-title {
-    background-color: #f4f4fd;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .team-name {
