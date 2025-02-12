@@ -13,8 +13,8 @@ a {
     text-decoration: none;
 }
  
-< !--Header-->
-.logo {
+<!--Header-->
+.logo .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -54,21 +54,23 @@ a {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus
+.contacts-link:focus,
 .button-text:hover,
 .button-text:focus {
     color: #404bbf;
 }
+
 <!--MAIN-H1-and-buttion-->>
 
 .hero {
+    background-color: #2e2f42
 }
 
 .hero-name {
     background-color: #2e2f42;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -101,14 +103,22 @@ a {
     color: #434455;
 }
 
-< !--section our team -->
+<!--section-our-team-->
 .team {
     background-color: #f4f4fd;
 }
+.team-list {
+    background-color: #f4f4fd;
+    text-transform: capitalize;
+}
+.team-item {
+    background-color: #FFFFFF
+}
 .team-title {
+    background-color: #f4f4fd;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -132,16 +142,18 @@ a {
     color: #434455;
 }
 
-< !--section portfolio -->
+<!--section-portfolio-- >
+
 .portfolio {}
 
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .portfolio-list {}
@@ -168,8 +180,17 @@ a {
 .page-footer {
     background-color: #2e2f42;
 }
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
 .text-footer {
-    background-color: #2e2f42;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
