@@ -13,8 +13,8 @@ a {
     text-decoration: none;
 }
  
-<!--Header-->
-.logo .header-logo {
+
+ .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -54,13 +54,15 @@ a {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus,
-.button-text:hover,
-.button-text:focus {
+.contacts-link:focus {
     color: #404bbf;
 }
 
-<!--MAIN-H1-and-buttion-->>
+.button-text:hover,
+.button-text:focus {
+    background-color: #404bbf;
+}
+/* MAIN-H1-and-buttion */
 
 .hero {
     background-color: #2e2f42
@@ -86,7 +88,7 @@ a {
     color: #fff;
 }
 
-< !-- MAIN-Section-text -->
+/*MAIN-Section-text */
 
 .feature-name {
     font-weight: 500;
@@ -103,7 +105,7 @@ a {
     color: #434455;
 }
 
-<!--section-our-team-->
+/*section-our-team */
 .team {
     background-color: #f4f4fd;
 }
@@ -142,9 +144,7 @@ a {
     color: #434455;
 }
 
-<!--section-portfolio-- >
-
-.portfolio {}
+/*section-portfolio */
 
 .portfolio-title {
     font-weight: 700;
@@ -156,13 +156,9 @@ a {
     text-transform: capitalize
 }
 
-.portfolio-list {}
-
-.portfolio-item {}
-
 .portfolio-subtitle {
     font-weight: 500;
-     font-size: 20px;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -176,7 +172,8 @@ a {
     color: #434455;
 }
 
-<!--footer-->
+/*footer*/
+
 .page-footer {
     background-color: #2e2f42;
 }
@@ -184,7 +181,7 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
